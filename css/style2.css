@@ -10,3 +10,75 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 #packs h2 {
 	color: #df4f4f;
 }
+.pack_text {
+	color: #ffffff;
+}
+.pack_section {
+	border: 1px solid #000000;
+	display: inline-block;
+	width: 300px;
+	
+}
+.reloj_icon {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+.pack_textoff {
+	color: #b1b1b1;
+}
+.price_text {
+	color: #b10000;
+}
+.buy_button {
+	width: 150px;
+	height: 50px;
+	background-color: #df4f4f;
+	color: #000000;
+	border: 0px transparent;
+	transition: background-color 1s ease;
+	transition: color 1s ease;
+}
+.buy_button:hover {
+	background-color: #000000;
+	color: #df4f4f;
+	cursor: pointer;
+}
+.buy_text {
+	padding: 0;
+	margin: 0;
+}
+/* .pack_title {
+	color: #df4f4f;
+	float: left;
+	display: inline;
+}
+.pack_title1 {
+	color: #df4f4f;
+	display: inline;
+}
+.pack_title2 {
+	color: #df4f4f;
+	display: inline;
+} */
+.pack_section1 {
+	border: 1px solid #000000;
+	display: inline-block;
+	width: 300px;
+	/* margin-left: 100px; */
+	/* margin-left: 300px; */
+}
+.pack_section2 {
+	border: 1px solid #000000;
+	display: inline-block;
+	width: 300px;
+	/* margin-left: 150px; */
+	/* margin-left: 300px; */
+}
+.pack_section3 {
+	border: 1px solid #000000;
+	display: inline-block;
+	width: 300px;
+	max-width: 100%;
+	/* margin-left: 300px; */
+}
