@@ -14,10 +14,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	color: #ffffff;
 }
 .pack_section {
-	border: 1px solid #000000;
+	border: 3px solid #000000;
 	display: inline-block;
 	width: 300px;
-	
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	height: 570px;
+	transition: width 0.3s ease;
+	background-color: #5c5b5b;
+}
+.pack_section1:hover {
+	width: 325px;
+}
+.pack_section2:hover {
+	width: 325px;
+}
+.pack_section3:hover {
+	width: 325px;
 }
 .reloj_icon {
 	padding: 0;
@@ -62,23 +75,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	display: inline;
 } */
 .pack_section1 {
-	border: 1px solid #000000;
+	border: 3px solid #000000;
 	display: inline-block;
 	width: 300px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	transition: width 0.3s ease;
+	background-color: #5c5b5b;
 	/* margin-left: 100px; */
 	/* margin-left: 300px; */
 }
 .pack_section2 {
-	border: 1px solid #000000;
+	border: 3px solid #000000;
 	display: inline-block;
 	width: 300px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	transition: width 0.3s ease;
+	background-color: #5c5b5b;
 	/* margin-left: 150px; */
 	/* margin-left: 300px; */
 }
 .pack_section3 {
-	border: 1px solid #000000;
+	border: 3px solid #000000;
 	display: inline-block;
 	width: 300px;
 	max-width: 100%;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	transition: width 0.3s ease;
+	background-color: #5c5b5b;
 	/* margin-left: 300px; */
 }
